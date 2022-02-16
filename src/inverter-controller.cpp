@@ -18,6 +18,7 @@ float adc_to_v(uint16_t);
 // Function definitions
 // ********************
 
+// ref https://stackoverflow.com/questions/7091294/how-to-build-a-lookup-table-in-c-sdcc-compiler-with-linear-interpolation
 float adc_to_v(uint16_t x)
 {
   /* NOTE: xs MUST be sorted */
